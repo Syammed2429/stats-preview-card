@@ -1,10 +1,10 @@
-# Results Summary component
+# Stats preview card component component
 
 ![Design preview for the Profile card component coding challenge](./public/images/preview.jpg)
 
-# Frontend Mentor - Results Summary component solution
+# Frontend Mentor - Stats preview card component solution
 
-This is a solution to the [Results Summary component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is a solution to the [Stats preview card component component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -23,7 +23,7 @@ This is a solution to the [Results Summary component challenge on Frontend Mento
 
 ### Links
 
-- Solution URL: [GitHub Repo](https://github.com/Syammed2429/results-summary)
+- Solution URL: [GitHub Repo](https://github.com/Syammed2429/stats-preview-card)
 - Live Site URL: [Live Site](https://stats-preview-card-coral-xi.vercel.app/)
 
 ## My process
@@ -39,6 +39,6 @@ This is a solution to the [Results Summary component challenge on Frontend Mento
 
 ## Author
 
-- Website - [Dada](https://github.com/Syammed2429)
+- GitHub - [Dada](https://github.com/Syammed2429)
 - Frontend Mentor - [Dada](https://www.frontendmentor.io/profile/kerrybli)
 - Twitter - [Coding With Mr.M](https://www.twitter.com/Kerry14066781)
