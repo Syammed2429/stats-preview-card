@@ -43,7 +43,7 @@ export const Stats = () => {
         </div>
       </div>
 
-      <div className=' h-full bg-[#9f44d8]'>
+      <div className=' h-full bg-[#9f44d8] rounded-tr-lg rounded-br-lg'>
         <Image
           src={bitMap}
           alt='some image'
