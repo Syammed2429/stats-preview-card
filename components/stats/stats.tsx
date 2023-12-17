@@ -21,9 +21,9 @@ export const Stats = () => {
   ];
 
   return (
-    <div className='flex  flex-col-reverse xl:flex-row  w-[57dvw] h-[30rem] bg-[#1B1937] shadow-[0px_20px_20px_-10px_rgba(23,25,41,0.20)] rounded-lg'>
-      <div className='flex flex-col my-20 space-y-10 w-[400px] mx-20'>
-        <div className='text-4xl font-bold'>
+    <div className='flex  flex-col-reverse justify-center items-center mt-[15rem] xl:mt-0  xl:justify-normal xl:items-stretch h-[100dvh] w-auto  xl:flex-row  xl:w-[60rem] xl:h-[27rem] bg-[#1B1937] shadow-[0px_20px_20px_-10px_rgba(23,25,41,0.20)] rounded-lg '>
+      <div className='flex flex-col justify-center items-center pt-[2rem] xl:my-20 space-y-8 xl:space-y-10 w-[350px]  xl:w-[400px] mx-20 text-center xl:text-left'>
+        <div className='text-4xl font-bold  xl:w-full'>
           Get <span className='text-[#AB5CDB]'>insights </span>that help your
           business grow.
         </div>
@@ -31,7 +31,7 @@ export const Stats = () => {
           Discover the benefits of data analytics and make better decisions
           regarding revenue, customer experience, and overall efficiency.
         </div>
-        <div className='flex gap-24'>
+        <div className='flex flex-col xl:flex-row gap-5 xl:gap-24 h-full pb-28 xl:pb-0'>
           {statsData?.map((stat) => (
             <div key={stat?.id} className='space-y-2'>
               <div className='text-2xl font-bold'>{stat?.value}</div>
@@ -43,11 +43,12 @@ export const Stats = () => {
         </div>
       </div>
 
-      <div className=' h-full bg-[#9f44d8] rounded-tr-lg rounded-br-lg'>
+      <div className=' bg-[#9f44d8] rounded-tr-lg rounded-br-lg '>
         <Image
           src={bitMap}
           alt='some image'
-          className='object-cover h-full mix-blend-multiply'
+          objectFit='cover'
+          className=' mix-blend-multiply h-full'
         />
       </div>
     </div>
