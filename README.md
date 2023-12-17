@@ -24,7 +24,7 @@ This is a solution to the [Results Summary component challenge on Frontend Mento
 ### Links
 
 - Solution URL: [GitHub Repo](https://github.com/Syammed2429/results-summary)
-- Live Site URL: [Live Site](https://results-summary-five-alpha.vercel.app/)
+- Live Site URL: [Live Site](https://stats-preview-card-coral-xi.vercel.app/)
 
 ## My process
 
