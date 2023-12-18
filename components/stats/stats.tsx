@@ -31,7 +31,7 @@ export const Stats = () => {
           Discover the benefits of data analytics and make better decisions
           regarding revenue, customer experience, and overall efficiency.
         </div>
-        <div className='flex flex-col xl:flex-row gap-5 xl:gap-24 h-full pb-20 md:pb-28 xl:pb-0'>
+        <div className='flex flex-col xl:flex-row gap-5 xl:gap-24 h-full pb-20 md:pb-28 xl:pb-5'>
           {statsData?.map((stat) => (
             <div key={stat?.id} className='space-y-2'>
               <div className='text-2xl font-bold'>{stat?.value}</div>
